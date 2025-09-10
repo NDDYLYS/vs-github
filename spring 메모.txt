@@ -2568,9 +2568,14 @@ git config --global user.email
 github pull requests 설치
 f1 -> clone 안 나오면 재시작
 
+f1 -> commit all
+comment 입력, 저장, 닫기
+f1 -> pull
+f1 -> push
+
 f1 -> setting json
 {
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Default Light Modern",
     "editor.fontSize": 20,
     "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
     "emmet.variables": {
@@ -2583,7 +2588,21 @@ ctrl + / 주석
 이름과 항목을 :으로 연결
 <input style = "">
 
+한 명령어의 마지막에 ; 적기
+
 장점 : 어떤 방식보다의 디자인보다도 우선순위가 높다
 단점 : 알아보기가 힘들다(가독성이 낮다)
 
 메인 디자인이 아니라 중요한 몇 가지만 설정할 때 쓴다
+
+style 태그를 사용하여 디자인 선택자(selector)를 이용하여 대상을 지정
+장점 : 가독성이 좋다, 재사용 가능
+단점 : 선택자를 공부해야 한다
+
+이 방식을 메인 디자인으로 채택
+(style은 화면에 안 나오므로 head에 넣는다)
+<style>
+        input {
+            font-size:50px;
+        }
+</style>

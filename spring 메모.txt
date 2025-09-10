@@ -2712,6 +2712,7 @@ a 태그에서 밑줄 제거
 입력창 field
 버튼 btn
 구분선 divider
+링크 link
 
 class 디자인적인 역할
 

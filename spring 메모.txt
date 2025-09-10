@@ -2773,3 +2773,19 @@ div{
             text-align: right;
         }
     </style>
+
+<body>
+    <div class = "container">
+        <div class = "cell center">
+            <img src = "images/img.png" width = "50%">
+        </div>
+        <div class = "cell">
+            <input type = "text" name = "" class = "field" placeholder="아이디">
+        </div>
+        <div class = "cell">
+            <input type = "password" name = "" class = "field" placeholder="비밀번호"></div>
+        <div class = "cell">
+            <button class = "btn">로그인</button>
+        </div>
+    </div>
+</body>

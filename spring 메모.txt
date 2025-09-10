@@ -2606,3 +2606,68 @@ style 태그를 사용하여 디자인 선택자(selector)를 이용하여 대�
             font-size:50px;
         }
 </style>
+
+<input id="nameInput" type="text" placeholder="이름">
+<input id="emailInput" type="email" placeholder="이메일">
+
+<style>
+  #nameInput {
+    border: 2px solid red;
+    background: #ffeaea;
+  }
+  #emailInput {
+    border: 2px solid blue;
+    background: #eaf0ff;
+  }
+</style>
+
+font-family: 'Times New Roman', Times, serif;
+폰트가 없으면 오른쪽껄 실행한다
+
+margin은 100%에 포함되지 않는다.
+위 아래만 주기도 한다
+
+상하 / 좌우
+margin: 10px 0px;
+
+12시 3시 6시 9시
+ margin: 10px 0px 20px 40px;
+
+<b>볼드</b>
+<strong>더 강한 볼드</strong>
+
+    <style>
+        /* 태그 선택자 */
+        input {
+            /* 색상 관련 */
+            color:#ffaa66; /* 글자색 */
+            background-color: transparent;/* 배경색 */
+            /* 테두리 관련 디자인 */
+            border-color: green;
+            border-style: solid;
+            border-width: 7px;
+            /* border : 3px solid  */
+            border-radius: 99px;/* 모서리를 깎는다 */
+
+            /* 글꼴 관련 디자인 */
+            font-family: 'Times New Roman', Times, serif;
+            /* 폰트가 없으면 오른쪽껄 실행한다 */
+            font-size: 20px;
+            font-weight: 100 /*가중치*/ ;
+            font-style:italic;
+
+            /* 여백과 크기 디자인 */
+            padding: 10px;
+            margin: 10px;
+            margin: 10px 0px;
+            /* 
+            margin은 100%에 포함되지 않는다.
+            위 아래만 주기도 한다
+
+            상하 / 좌우
+            margin: 10px 0px;
+
+            12시 3시 6시 9시
+            margin: 10px 0px 20px 40px; */
+        }
+    </style>

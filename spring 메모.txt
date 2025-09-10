@@ -2671,3 +2671,28 @@ margin: 10px 0px;
             margin: 10px 0px 20px 40px; */
         }
     </style>
+
+1. <br> 없이 줄바꿈
+2. 입력창하고 버튼의 폭이 안 맞음
+3. 글자 크기에 비례한 크기 지정
+4. 태그별로 디자인 해야 하나?
+
+display:block;
+위 아래로 점점 쌓인다, 한줄에 한개만 배치
+폭(width) 설정 가능
+display:inline;
+한 줄에 여러 개 배치 
+폭 설정 불가능
+
+1 -> display:inline-block;
+
+2 -> * {
+	box-sizing: border-box;
+}
+
+3 -> padding:0.5em;
+
+<div style="text-align:center;">
+
+margin을 중앙 정렬에 주기
+auto

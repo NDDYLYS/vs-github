@@ -2695,4 +2695,34 @@ display:inline;
 <div style="text-align:center;">
 
 margin을 중앙 정렬에 주기
-auto
+autocommit
+
+<img src = "images/Instagram_logo.svg.png">
+자기 스크립트 경로 내 상대경로로 적용
+
+border:none;
+테두리 제거
+
+text-decoration: none;
+a 태그에서 밑줄 제거
+
+전지적 역할 관점
+
+로고 logo
+입력창 field
+버튼 btn
+구분선 divider
+
+class 디자인적인 역할
+
+.Container
+.cell
+
+한 줄에 cell은 하나다
+
+* {
+	box-sizing: border-box;
+}
+div{
+	box-shadow: 0 0 1px 0 gray;
+}

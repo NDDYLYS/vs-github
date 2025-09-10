@@ -2727,3 +2727,49 @@ class 디자인적인 역할
 div{
 	box-shadow: 0 0 1px 0 gray;
 }
+
+
+33, 203, 1
+
+<style>
+        * {
+            box-sizing: border-box;
+        }
+        div{
+            box-shadow: 0 0 1px 0 gray;
+        }
+        .container{
+            box-shadow: 0 0 1px 0 blue;
+            width: 350px;
+            margin: 0 auto;
+        }
+        .cell{
+            box-shadow: 0 0 1px 0 red;
+            margin: 10px 0;
+        }
+        .field{
+            width: 100%;
+            font-size: 16px;
+            padding: 0.5em;
+        }
+        .btn{
+             width: 100%; 
+             font-size: 16px;
+             color: white;
+             padding: 0.5em;
+             background-color: rgb(33, 203, 1);
+        }
+        .link{
+
+        }
+        /* 정렬용 클래스 */
+        .left{
+            text-align: left;
+        }
+        .center{
+            text-align: center;
+        }
+        .right{
+            text-align: right;
+        }
+    </style>

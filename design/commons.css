@@ -206,9 +206,10 @@ textarea.field {
      min-width: 2.5em;
      border: 1px solid transparent;
 }
-.pagination > a:hover
+.pagination > a:hover,
 .pagination > a.on
 {
      /* border: 1px solid #303952; */
-     box-shadow:0 0 2px 1px #303952;
+     box-shadow:0 0 2px 1px #ff0000;
+     color:  #ff0000;;
 }
